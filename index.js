@@ -54,7 +54,7 @@ const randomIntegerFromInterval = (min, max) => {
 
 
   const makeTransaction = (transaction) => {
-    
+
     return new Promise((resolve, reject) => {
 
       const delay = randomIntegerFromInterval(200, 500);
@@ -75,6 +75,7 @@ const randomIntegerFromInterval = (min, max) => {
       
     }, delay);
    
+    
 });
   };
   
