@@ -68,6 +68,7 @@ const randomIntegerFromInterval = (min, max) => {
 
           resolve({ id: transaction.id, time: delay });
 
+          
         } else {
 
           reject({ id: transaction.id });
@@ -75,7 +76,7 @@ const randomIntegerFromInterval = (min, max) => {
       
     }, delay);
    
-    
+
 });
   };
   
